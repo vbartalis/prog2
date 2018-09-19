@@ -1,0 +1,14 @@
+C#
+Mono -ubuntu
+Visual Studio -Windows
+
+Android Studio
+  +Android SDK
+
+github repó: prog2
+  x hét
+    y feladat
+      kód+(txt)
+
+  readme.md
+    youtube link/screenshot
