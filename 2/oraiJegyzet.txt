@@ -1,9 +1,10 @@
 C#
-Mono -ubuntu
-Visual Studio -Windows
-
-Android Studio
-  +Android SDK
+3, feladathoz:
+  Mono -ubuntu
+  Visual Studio -Windows
+  +
+  Android Studio
+    +Android SDK
 
 github repó: prog2
   x hét
@@ -12,3 +13,8 @@ github repó: prog2
 
   readme.md
     youtube link/screenshot
+
+1,2 feladat megértéséhez segíthet: polimorfizmus/polymorphism
+
+5, pi program komplaxitása
+ fannymonori@gmail.com
