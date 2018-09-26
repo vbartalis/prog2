@@ -1,0 +1,12 @@
+1 uml diagrammot generálni az első védés programjából(LZWbinfa)
+2 modellez oml-ben osztáj diagramban a tárgyak, kurzusok, tanarok, halgatok kapcsolatat
+3 elolvasni, példák legyenek meg
+4 ez már nem osztájokra hanem inkább folyamatokra van(oml ben is lehet folyamatokat ábrázolni de abban inkább osztályokat szoktak)
+  prog 1 menete
+    tárgyhírdetés
+    felvétel
+    leadás
+    jegyek
+    stb.
+  bpmn.io, eclipsenek is van pluginja erre
+5 adott egy bpmn-technológiával elkészített példa(youtube-on video), kell eclipse, azon belül telepíteni kell bpml designert, tocket server localhoston, appache alkalmazást.
