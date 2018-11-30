@@ -1,0 +1,3 @@
+a try ban lévő utasításokat megpróbálja végrehajtani
+	ha nem sikerül akkor a catch (Exception e) a hiba okát az e-ben eltárolja aztán
+	a saját {...} hajtja végre

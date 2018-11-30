@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2018-11-24T20:38:57.684">
+<file name="/home/zenol/Desktop/prog2misc/7het/5/rcwin/src/main/java/justine/robocar/CarWindow.java">
+<violation beginline="200" endline="200" begincolumn="21" endcolumn="21" rule="UnusedLocalVariable" ruleset="Unused Code Rules" package="justine.robocar" class="CarWindow" variable="i" externalInfoUrl="http://pmd.sourceforge.net/rules/unusedcode.html#UnusedLocalVariable" priority="3">
+Avoid unused local variables such as 'i'.
+</violation>
+</file>
+</pmd>

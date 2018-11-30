@@ -1,0 +1,6 @@
+1 javitani benne pl amiből fát épít átírni vagy valami mást
+2 hogyan kapcsolódik a hálózatkezelésbe
+3 fogalmazós felada, kameraképet dolgoz fel, android api, server, le van írva
+  hogyan működik az opencv-s és ..
+4 slot-signal, leírni me iz?
+5 kódolás. van alternatíva lábjegyzékben(android gps)

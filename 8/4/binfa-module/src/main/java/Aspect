@@ -1,0 +1,29 @@
+privileged aspect LWZSzoves {
+	void around (char b, hu.hnk.binfa.core.LZWBinFaImpl f): target(f) && call (void egyBitFeldolg(char)) && args(b)
+	{		
+		
+		if (b == '0') {
+
+		      if (f.fa.nullasGyermek() == null) {
+		      
+				hu.hnk.binfa.common.Csomopont uj = new hu.hnk.binfa.core.CsomopontImpl('0');
+				f.fa.ujNullasGyermek(uj);
+				
+				f.egyBitFeldolg('0');
+				f.fa = f.gyoker;
+		      } else  {
+		           f.fa = f.fa.nullasGyermek();
+		      }
+         }  else {
+			    if (f.fa.egyesGyermek() == null) {
+					hu.hnk.binfa.common.Csomopont uj = new hu.hnk.binfa.core.CsomopontImpl('1');
+					f.fa.ujEgyesGyermek(uj);
+					
+					f.egyBitFeldolg('1');
+					f.fa = f.gyoker;
+	      		} else {
+					f.fa = f.fa.egyesGyermek();
+				}
+    	}
+	}
+}

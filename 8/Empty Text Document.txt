@@ -1,0 +1,6 @@
+1. magyarázat, kipróblni a kódot
+2. binfa, pl 0,1 számát kiszámolni
+    aspectj 
+3. lehet az előző heti gps is
+4. binfa szórás mélység
+5. összefoglaló

@@ -1,0 +1,10 @@
+python g;pi tanul's
+1 kipróbálni /tensorflowhelloworld3
+  saját kézzel írt számon is futtatni kell
+2 github legutolsó release kell
+  examples/tutorials/mnist/
+  mnist-deep.py
+3 sokáig fog futni, akár 10+h is lehet
+4 github examples/android
+  classic, detect
+5 esszé

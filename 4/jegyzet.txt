@@ -1,0 +1,3 @@
+2 rövid leírás
+3 java vagy c++
+4 teljs képernyős java program(kész programot átrakni fullcreenre)

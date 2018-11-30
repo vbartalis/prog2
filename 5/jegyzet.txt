@@ -1,0 +1,8 @@
+1.  fénykardból ki lehet indulni
+2.  konstruktor destruktor mozgató értékadás..
+3.  rsa titkosító algoritmus
+    angol szöveg
+    frequency analisis(gyakoriság alapu törés)
+    beszómoló
+4.  nem értéket hannem képet adjon vissza(prog1 védés)
+5. előző 4 feladatból egyikböl esszét kell írni

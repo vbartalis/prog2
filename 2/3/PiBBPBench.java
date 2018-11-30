@@ -93,7 +93,7 @@ public class PiBBPBench {
 
         long delta = System.currentTimeMillis();
 
-        for(int d=100000000; d<100000001; ++d) { //Ennek mi ;rtelme van?????????????
+        for(int d=10000000; d<10000001; ++d) { //Ennek mi ;rtelme van?????????????
 
             d16Pi = 0.0d;
 

@@ -1,0 +1,37 @@
+A std::vector<std::pair<std::string, int>> res = sort_map ( rank ); sorral meghívjuk a függvénytét és
+a rank mapot adja át a függvénynek és egy párokból álló vektort vár válasznak.
+
+
+maga a függvény:
+std::vector<std::pair<std::string, int>> sort_map ( std::map <std::string, int> &rank )
+{
+        std::vector<std::pair<std::string, int>> ordered;
+
+        for ( auto & i : rank ) {
+                if ( i.second ) {
+                        std::pair<std::string, int> p {i.first, i.second};
+                        ordered.push_back ( p );
+                }
+        }
+
+        std::sort (
+                std::begin ( ordered ), std::end ( ordered ),
+        [ = ] ( auto && p1, auto && p2 ) {
+                return p1.second > p2.second;
+        }
+        );
+
+        return ordered;
+}
+
+A sort_map függvény megkapja a rank mapot referenciaként.(string a kulcs, int az érték)
+
+Inicializáluk egy új párokból álló vektort orarend-et, ez lessz a sort_map függvény visszatérési értéke.
+
+egy for ciklussal végigmegyünk a rank map mindegyik elemén és kerressük azokat az értékeket( a pár második tagja, int) amyelyek nem 0.
+ha találunk akkor ezt az értéket és a párját belerakjuk az orarend vektorba.
+
+ha végeztünk a ciklussal akkor az std::sort segitségével fogjuk rendezni az orarend vektort, ami immár a rank map összes olyan elempárját
+tartalmazza amelyek második eleme(int) nem nulla.
+
+Egy lambdás sort-al rendezzük csökkenő sorrendbe az órarend vektort(második érték, int szerint)
